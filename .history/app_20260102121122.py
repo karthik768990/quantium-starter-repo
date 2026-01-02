@@ -108,5 +108,6 @@ def update_chart(selected_region):
 
 
 if __name__ == "__main__":
+    app = dash.Dash(__name__)
 
     app.run(debug=True)
